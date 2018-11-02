@@ -1,0 +1,91 @@
+@import './common.scss';
+.wrap{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+.header{
+    width: 100%;
+    height: px2rem(50px);
+    line-height: px2rem(50px);
+    background: #000;
+    color: #fff;
+    font-size: px2rem(20px);
+    text-align: center;
+}
+.main{
+    width: 100%;
+    flex: 1;
+    .banner{
+        width: 100%;
+        ul{
+            width: 100%;
+            li{
+                width: 100%;
+                img{
+                    width: 100%;
+                }
+            }
+        }
+    }
+    .title{
+        margin-top: px2rem(10px);
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        dl{
+            width: 25%;
+          dt{padding: px2rem(5px) 0;
+              margin: 0 auto;
+              width: px2rem(60px);
+              border-radius: px2rem(20px);
+              background: darkorange;
+              .icon-fangdajing{
+                  font-size: px2rem(30px);
+                  color: #fff;
+                  margin-left: px2rem(9px);
+              }
+          }
+          dd{
+              text-align: center;
+              line-height: px2rem(30px);
+              color: orange;
+              font-size: px2rem(16px);
+          }
+        }
+    }
+    .hot{
+        width: 100%;
+        .hot_text{
+            width: 100%;
+            margin-top: px2rem(20px);
+            h5{
+                padding: 0 px2rem(15px);
+                font-size: px2rem(20px);
+            }
+              dl{
+            width: 100%;
+            display: flex;
+            padding: 0 px2rem(10px);
+          
+            dt{
+                width: px2rem(150px);
+                flex-shrink: 0;
+                img{
+                    width: 100%;
+                }
+            }
+            dd{
+                font-size: px2rem(16px);
+                height: px2rem(100px);
+                padding-left: px2rem(15px);
+                overflow: hidden;
+            }
+        }
+        }
+       
+      
+    }
+}
